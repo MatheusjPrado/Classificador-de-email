@@ -1,0 +1,52 @@
+# Sensitive files
+credentials.json
+appsettings.Development.json
+
+# .NET
+bin/
+obj/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+.vs/
+
+# Build artifacts
+artifacts/
+publish/
+wwwroot/
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+out-tsc/
+
+# Angular frontend specifics
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/out-tsc/
+/frontend/.git
+
+# IDEs
+.vscode/
+.idea/
+
+# Secrets and env
+.env
+.env.local
+.env.*.local
+secrets.json
+*.secret
+credentials/*.json
+
+# Logs and OS
+*.log
+*.DS_Store
+Thumbs.db
+Desktop.ini
